@@ -2,7 +2,7 @@
 
 project = "Sphinx Book Theme"
 copyright = "2020"
-author = "the Executable Book Project"
+author = "the Executable Book Project & the FAIRplus consortium"
 
 master_doc = "index"
 
@@ -53,7 +53,7 @@ thebe_config = {
 
 html_theme_options = {
     "path_to_docs": "docs",
-    "repository_url": "https://github.com/executablebooks/sphinx-book-theme",
+    "repository_url": "https://github.com/FAIRplus/sphinx-book-theme",
     "launch_buttons": {
         "binderhub_url": "https://mybinder.org",
         "notebook_interface": "jupyterlab",

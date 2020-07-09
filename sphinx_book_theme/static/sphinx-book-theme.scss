@@ -9,6 +9,13 @@ $breakpoint-sm: 576px;
 
 // Colors
 $non-content-grey: #5a5a5a;
+$fairplus-orange: #fc7a4a;
+$fairplus-fucsia: #8038d1;
+$fairplus-purple: #300861;
+$fairplus-bordeaux: #7e0038;
+// $link-color: #0071bc; 
+$link-color: #fc7a4a;
+
 
 /*********************************************
 * Whole page *
@@ -43,13 +50,13 @@ main.bd-content {
 
             &:hover {
                 background-color: transparent;
-                color: #0071bc;
+                color: $link-color;
                 opacity: 1 !important;
             }
         }
 
         a, a:visited {
-            color: #0071bc;
+            color: $link-color;
         }
 
         h1, h2, h3, h4, h5 {
@@ -518,11 +525,11 @@ button.topbarbtn img {
 
         // TOC link color
         a:hover, li.active > a.active {
-            color: #0071bc;
+            color: $link-color;
         }
 
         li.active > a.active {
-            border-left: 2px solid #0071bc;
+            border-left: 2px solid $link-color;
         }
     }
 
@@ -575,7 +582,7 @@ button.topbarbtn img {
             color: $non-content-grey;
         }
         a:hover, li.active > a, li.active > a:hover {
-            color: #0071bc;
+            color: $link-color;
         }
     }
 
