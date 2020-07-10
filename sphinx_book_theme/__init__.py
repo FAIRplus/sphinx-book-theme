@@ -8,7 +8,7 @@ import sass
 
 from .launch import add_hub_urls
 
-__version__ = "0.0.999overwrite"
+__version__ = "0.0.999"
 SPHINX_LOGGER = logging.getLogger(__name__)
 
 
